@@ -1,6 +1,6 @@
 # streamlit-News-Forum
 
-This is a simple news board artifact created by chatgpt. To provide the data inthis artifact, only create the file `news.csv` as follows, 這是使用chu的G P T產生的新聞發佈榜，讀取並發佈 `news.csv` 裡面的資料格式如下:
+This is a simple news board artifact created by chatgpt. To provide the data inthis artifact, only create the file `news.csv` as follows, 這是使用 chatgpt產生的新聞發佈榜，讀取並發佈 `news.csv` 裡面的資料格式如下:
 ```
 Title,Source,Publish_date
 "title1","news content1",YYYY-MM-DD
