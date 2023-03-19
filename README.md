@@ -9,6 +9,6 @@ Title,Source,Publish_date
 where `YYYY-MM-DD` is the datetime format, such as `2023-02-01`. If `"` symobl required in content, :red[double this symbol].
 To prepare the "news.csv", and run the following on shell to startup:
 ```
-python run app.py
+streamlit run app.py
 ```
 [Streamlit App](https://cchuang2009-streamlit-news-forum-app-9ayjmo.streamlit.app/)
