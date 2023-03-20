@@ -11,7 +11,8 @@ To prepare the "news.csv", and run the following on shell to startup, 準備好�
 ```
 streamlit run app.py
 ```
-[Streamlit App](https://cchuang2009-streamlit-news-forum-app-9ayjmo.streamlit.app/)
+- [Streamlit App](https://cchuang2009-streamlit-news-forum-app-9ayjmo.streamlit.app/)
+- [Sreamlit App with Search option](https://cchuang2009-streamlit-news-forum-app-2-ednjz9.streamlit.app/)
 
 TODO
 ---
