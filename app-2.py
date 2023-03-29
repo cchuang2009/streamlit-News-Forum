@@ -1,43 +1,51 @@
-import streamlit as st
+# load required modules, 載入必要模組
 import pandas as pd
-import os
+from datetime import datetime
+import streamlit as st
 
-# Define function to save user data to CSV file
-def save_data(name, nickname, department, skill_interest, learning_power, email):
-    user_data = {'Name': [name], 'Nickname': [nickname], 'Department': [department], 'Skill/Interest': [skill_interest], 'Learning Power': [learning_power], 'Email': [email]}
-    df = pd.DataFrame(user_data)
-    if not os.path.exists('users.csv'):
-        df.to_csv('users.csv', index=False)
-    else:
-        df.to_csv('users.csv', mode='a', header=False, index=False)
+st.set_page_config(page_title="News Archive", page_icon=":newspaper:", layout="wide")
 
-# Define function to display registered users
-def show_users():
-    users_df = pd.read_csv('users.csv')
-    users_df.drop(columns=['Name'], inplace=True)
-    st.table(users_df)
+# Read CSV file, 讀取資料
+df = pd.read_csv("news.csv")
 
-# Set up Streamlit app
-st.set_page_config(page_title="User Registration App", page_icon=":guardsman:", layout="wide")
-st.title('User Registration App')
-menu = ['Register', 'List Registered Users']
-choice = st.sidebar.selectbox('Select an option:', menu)
+# Convert date column to datetime 轉換時間資料格式
+df["Published_date"] = pd.to_datetime(df["Published_date"])
 
-if choice == 'Register':
-    # Add input fields for user data
-    name = st.text_input('Name')
-    nickname = st.text_input('Nickname')
-    department = st.selectbox('Department', ['Management', 'Engineering', 'Medical'])
-    skill_interest = st.text_input('Skill/Interest')
-    learning_power = st.selectbox('Learning Power', ['No', 'Weak', 'So-so', 'Strong'])
-    email = st.text_input('Email')
+# Sort by date, 依照時間排序
+df = df.sort_values("Published_date", ascending=False)
 
-    # Add submit button to save user data
-    if st.button('Submit'):
-        save_data(name, nickname, department, skill_interest, learning_power, email)
-        st.success('Data saved successfully!')
+# Set default selection to current year and month, 預定使用登錄的年月
+now = datetime.now()
+default_year_month = now.strftime("%Y-%b")
 
-elif choice == 'List Registered Users':
-    # Add button to display registered users
-    if st.button('View Registered Users'):
-        show_users()
+# Get unique year-month combinations from dataframe, 利用年月設定資料現選項
+year_months = df["Published_date"].dt.strftime("%Y-%b").unique()
+months = sorted(year_months, reverse=True)
+
+# Sidebar menu for selecting month, 設定左邊選項
+selected_month = st.sidebar.selectbox("Select Month", months, index=months.index(default_year_month))
+
+# Keyword search box, 關鍵詞查詢
+search_term = st.sidebar.text_input("Search News", "")
+
+# Filter dataframe by selected month and search term, 關鍵詞查詢結果
+filtered_df = df[(df["Published_date"].dt.strftime("%Y-%b") == selected_month) & (df["Title"].str.contains(search_term, case=False))]
+
+# Display selected news, 顯示選取的項目
+st.write(f"## News for :blue[{selected_month}]")
+
+for title, source, date in filtered_df[["Title", "Source", "Published_date"]].itertuples(index=False):
+    with st.expander(f'**{title}**'):
+        st.write(f"{source}", unsafe_allow_html=True)
+        st.write(f"*Published on :orange[{date.date()}]*")
+
+# Show last 5 news articles in sidebar, 列出最新的五個訊息
+st.sidebar.markdown("## Last 5 News Articles")
+last_5_articles = df.head()[["Title", "Source", "Published_date"]].values.tolist()[::-1]
+for article in last_5_articles:
+    title, source, date = article
+    st.sidebar.markdown(f"[{title}] - *Published on :orange[{date.date()}]*")
+    
+# If no selection made, show the most recent news article in main area, 如果如果沒有選項, 使用最後的日期內訊息
+if not selected_month:
+    st.write(f"# Latest News: [{df.iloc[0]['Title']}]({df.iloc[0]['Source']})")
