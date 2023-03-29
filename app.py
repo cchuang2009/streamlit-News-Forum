@@ -1,48 +1,43 @@
-import pandas as pd
-from datetime import datetime
 import streamlit as st
+import pandas as pd
+import os
 
-st.set_page_config(page_title="News Archive", page_icon=":newspaper:", layout="wide")
+# Define function to save user data to CSV file
+def save_data(name, nickname, department, skill_interest, learning_power, email):
+    user_data = {'Name': [name], 'Nickname': [nickname], 'Department': [department], 'Skill/Interest': [skill_interest], 'Learning Power': [learning_power], 'Email': [email]}
+    df = pd.DataFrame(user_data)
+    if not os.path.exists('users.csv'):
+        df.to_csv('users.csv', index=False)
+    else:
+        df.to_csv('users.csv', mode='a', header=False, index=False)
 
-# Read CSV file
-df = pd.read_csv("news.csv")
+# Define function to display registered users
+def show_users():
+    users_df = pd.read_csv('users.csv')
+    users_df.drop(columns=['Name'], inplace=True)
+    st.table(users_df)
 
-# Convert date column to datetime
-df["Publish_date"] = pd.to_datetime(df["Publish_date"])
+# Set up Streamlit app
+st.set_page_config(page_title="User Registration App", page_icon=":guardsman:", layout="wide")
+st.title('User Registration App')
+menu = ['Register', 'List Registered Users']
+choice = st.sidebar.selectbox('Select an option:', menu)
 
-# Sort by date
-df = df.sort_values("Publish_date", ascending=False)
+if choice == 'Register':
+    # Add input fields for user data
+    name = st.text_input('Name')
+    nickname = st.text_input('Nickname')
+    department = st.selectbox('Department', ['Management', 'Engineering', 'Medical'])
+    skill_interest = st.text_input('Skill/Interest')
+    learning_power = st.selectbox('Learning Power', ['No', 'Weak', 'So-so', 'Strong'])
+    email = st.text_input('Email')
 
-# Set default selection to current year and month
-now = datetime.now()
-default_year_month = now.strftime("%Y-%b")
+    # Add submit button to save user data
+    if st.button('Submit'):
+        save_data(name, nickname, department, skill_interest, learning_power, email)
+        st.success('Data saved successfully!')
 
-# Get unique year-month combinations from dataframe
-year_months = df["Publish_date"].dt.strftime("%Y-%b").unique()
-months = sorted(year_months, reverse=True)
-
-# Sidebar menu for selecting month
-#selected_month = st.sidebar.selectbox("Select Month", months, index=months.tolist().index(default_year_month))
-selected_month = st.sidebar.selectbox("Select Month", months, index=months.index(default_year_month))
-
-# Filter dataframe by selected month
-filtered_df = df[df["Publish_date"].dt.strftime("%Y-%b") == selected_month]
-   
-# Display selected news
-st.write(f"## News for :blue[{selected_month}]")
-
-for title, source, date in filtered_df[["Title", "Source", "Publish_date"]].itertuples(index=False):
-    with st.expander(f'**{title}**'):
-        #st.markdown(f"[{source}]({source})") 
-        st.write(f"{source}",unsafe_allow_html=True)
-        st.write(f"*Published on :orange[{date.date()}]*")  
-    
-# Show last 5 news articles in sidebar
-st.sidebar.markdown("## Last 5 News Articles")
-last_5_articles = df.head()["Title"].values.tolist()[::-1]
-for article in last_5_articles:
-    st.sidebar.write(article)
-
-# If no selection made, show the most recent news article in main area
-if not selected_month:
-    st.write(f"# Latest News: [{df.iloc[0]['Title']}]({df.iloc[0]['Source']})")
+elif choice == 'List Registered Users':
+    # Add button to display registered users
+    if st.button('View Registered Users'):
+        show_users()
