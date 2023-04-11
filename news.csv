@@ -68,3 +68,41 @@ Opera browser gets ChatGPT with ‘AI Prompts’,"Lastet Opera integrated buid-i
 ",2023-03-24
 Building ML Apps on Hugging Face Hub,"1. [Build Machine Learning Apps with Hugging Face](https://www.docker.com/blog/build-machine-learning-apps-with-hugging-faces-docker-spaces/),  [Hugging Face Hub](https://huggingface.co/docs/hub/index) enables collaborative open source machine learning. Using its ""Space"" and SDKs, including Streamlit, Docker etc.
 2. [Democratize AI by Docker and Hugging Face](https://www.docker.com/blog/docker-and-hugging-face-partner-to-democratize-ai/),  Introduction for Docker on  Spcae of [Hugging Face Hub](https://huggingface.co/docs/hub/index) ",2023-03-26
+SciSpace Copilot Chrome Extension,"A free chrome extension which gives you real-time answers to articles, no matter where you read them online:
+
+[News](https://typeset.io/copilot-chrome-plugin)",2023-04-11
+Auto-GPT: An Experimental Open-Source Application Showing the Power of LLMs like GPT-4,"Some of its features are mentioned below:
+
+1. Offers access to the World Wide Web for data collection and research
+2. Improved Long-Term and Short-Term Memory Capacity
+3. Includes examples of GPT-4 used for text generation 
+4. Popular internet resources are easily accessible
+5. Users may create summary and archive files with GPT-3.5
+
+[News](https://www.marktechpost.com/2023/04/10/meet-auto-gpt-an-experimental-open-source-application-showing-the-power-of-llms-like-gpt-4-to-autonomously-develop-and-manage-different-kinds-of-tasks/)
+
+[Github](https://github.com/Torantulino/Auto-GPT)",2023-04-11
+"MasseyRamanujan, Find Math Rules by ML","The Ramanujan Machine is an algorithmic approach to discover new mathematical conjectures.  The following is used to generated all Mobius transforms of e:
+```
+from ramanujan.LHSHashTable import LHSHashTable
+from ramanujan.constants import g_const_dict
+
+saved_hash = 'e_lhs_dept5'
+lhs_coefs_range = 5
+lhs = LHSHashTable(
+    saved_hash,
+    lhs_coefs_range,
+    [g_const_dict['e']])
+```
+
+[link](https://github.com/RamanujanMachine/RamanujanMachine)",2023-04-11
+"BloombergGPT, ","Bloomberg Just Launched ChatGPT For Finance, which is not a LLM, just connected their data to OpenAI’s GPT-4 API and fine-tuned a model to their needs; quite the contrary, it was created a model from scratch, based on BLOOM, an open source of HuggingFace.
+
+1. It’s the model trained in the biggest financial dataset in history, 363 billion tokens (a token being a set of characters or words).
+2.  Greater calculator for
+       - FPB: A sentiment classification task on sentences from financial news
+       - FiQA SA: Predicting aspect-specific sentiment in financial news and microblog headlines.
+       - Headline: A binary classification task determining if a news headline in the gold commodity domain includes certain information.
+      - NER: A named entity recognition task on financial data for credit risk assessment.
+
+[link](https://medium.com/@ignacio.de.gregorio.noblejas/bloomberggpt-fac7ca958466)",2023-04-11
