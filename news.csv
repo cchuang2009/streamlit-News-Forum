@@ -115,3 +115,19 @@ Vicuna:  Meta’s Llama Model that Matches ChatGPT Performance,"Vicuna-13B is a 
 - [News 1](https://venturebeat.com/ai/databricks-releases-dolly-2-0-the-first-open-instruction-following-llm-for-commercial-use/)
 - [News 2](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm)
 - src link: [Databricks Huggingface](https://huggingface.co/databricks),  and visit [databricks-dolly-15k dataset](https://github.com/databrickslabs/dolly/tree/master/data) to download.",2023-04-13
+"GPT4All, free chatbot on local device","it is a LLM based on GPT-J, far smaller than GPT-3, but there is a handy installer to install it.
+
+1. [Link](https://www.digitaltrends.com/computing/how-to-use-gpt4all/)
+2. [GPT4All website](https://gpt4all.io/)",2023-04-19
+Open-source Alternatives to ChatGPT,"1. LLaMa, released by FAIR,/Meta. comes in four sizes: 7, 13, 33, and 65 billion parameters. (ChatGPT:175-billion). [paper](https://arxiv.org/abs/2302.13971), [Model card](https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md), [Access to trained Model](https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform)
+2. Alpaca, released by  Standford, is an instruction-following LLM based on LLaMA 7B, and  used a self-instruct. [self-instruct data set](https://github.com/tatsu-lab/stanford_alpaca).
+3. Vicuna, released by researchers at UC Berkeley et.al, is based on LLaMA, with 7, 13 billion parameters; also is fined-tuned  model from Alpaca and [ShareGPT](https://sharegpt.com/). [Release](https://github.com/lm-sys/FastChat),[OnlineDemo](https://chat.lmsys.org/)
+4. Dolly, by Databricks, based on GPT-J 6B, [Dolly 2](https://huggingface.co/databricks/dolly-v2-12b)",2023-04-19
+Bard coming,"Bard, the competitor  of ChatGPT, is on its way. 
+
+Joint waitlist of [Bard](bard.google.com), should receive a pin soon to test.",2023-04-23
+OpenAssistant: An open-source chat model,"it consists of a ~161K human-generated, human-annotated assistant-style conversation corpus, including 35 different languages
+
+1. [Link](https://open-assistant.io/auth/signin?callbackUrl=https%3A%2F%2Fopen-assistant.io%2Fchat).
+2. [News](https://www.marktechpost.com/2023/04/21/meet-openassistant-an-open-source-chat-model-that-consists-of-a-161k-human-generated-human-annotated-assistant-style-conversation-corpus-including-35-different-languages/)
+3. [Model](https://huggingface.co/OpenAssistant)",2023-04-23
