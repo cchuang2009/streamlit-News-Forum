@@ -131,3 +131,20 @@ OpenAssistant: An open-source chat model,"it consists of a ~161K human-generated
 1. [Link](https://open-assistant.io/auth/signin?callbackUrl=https%3A%2F%2Fopen-assistant.io%2Fchat).
 2. [News](https://www.marktechpost.com/2023/04/21/meet-openassistant-an-open-source-chat-model-that-consists-of-a-161k-human-generated-human-annotated-assistant-style-conversation-corpus-including-35-different-languages/)
 3. [Model](https://huggingface.co/OpenAssistant)",2023-04-23
+HuggingChat: An Open-Source Alternative To ChatGPT,"It can perform tasks like coding, emailing, and producing rap lyrics. 
+
+- [Link](https://huggingface.co/chat/)
+- [REference](https://techcrunch.com/2023/04/25/hugging-face-releases-its-own-version-of-chatgpt/)",2023-04-29
+"ImageReward, A revolutionary TTS","This is a novel solution to generating images from text prompts. by Chinese developer group.
+
+- [Github src](https://github.com/THUDM/ImageReward)
+- [paper](https://arxiv.org/abs/2304.05977)",2023-04-29
+NaturalSpeech 2: A Cutting-Edge TTS System,"Unveiled by Microsoft AI team, it is a cutting-edge TTS with Latent Diffusion Models for Powerful Zero-Shot Voice Synthesis and Enhanced Expressive Prosodies
+- [Project](https://speechresearch.github.io/)
+- [paper](https://arxiv.org/abs/2304.09116)",2023-04-29
+ChatGPT for Jupyter: The ChatGPT Extension for Jupyter Notebooks,"Install ChatGPT extension for  Browser:
+1. [Chrome, ChatGPT Jupyter, AI Assistant](https://chrome.google.com/webstore/detail/chatgpt-jupyter-ai-assist/dlipncbkjmjjdpgcnodkbdobkadiejll)
+2.  [Firefox](https://github.com/TiesdeKok/chat-gpt-jupyter-extension#installation)
+
+Then choose model and input OpenAI API key. This extension allows you to automatically add comments, docstrings, and formatting to your cell. ",2023-04-29
+"Generator, Create a Logo and Visual Brand With AI, a Case Study","[Generator](https://medium.com/the-generator) is a new project, which is a Medium-partnered, Boost-eligible publication about generative AI.",2023-04-29
