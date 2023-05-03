@@ -22,6 +22,11 @@ default_year_month = now.strftime("%Y-%b")
 year_months = df["Published_date"].dt.strftime("%Y-%b").unique()
 months = sorted(year_months, reverse=True)
 
+# Add the last year-month to the months list if it's not already there
+if default_year_month not in months:
+    months.append(default_year_month)
+
+
 # Sidebar menu for selecting month, 設定左邊選項
 selected_month = st.sidebar.selectbox("Select Month", months, index=months.index(default_year_month))
 
