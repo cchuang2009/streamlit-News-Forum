@@ -148,3 +148,15 @@ ChatGPT for Jupyter: The ChatGPT Extension for Jupyter Notebooks,"Install ChatGP
 
 Then choose model and input OpenAI API key. This extension allows you to automatically add comments, docstrings, and formatting to your cell. ",2023-04-29
 "Generator, Create a Logo and Visual Brand With AI, a Case Study","[Generator](https://medium.com/the-generator) is a new project, which is a Medium-partnered, Boost-eligible publication about generative AI.",2023-04-29
+Koala: A New AI  Fine-Tuned  Chatbot ,"UC Berkely AI research presents a novel model, Koala. Koala, which  is trained using data that includes interaction with capable closed-source models like ChatGPT. The researchers fine-tune a LLaMA base model. The datasets include high-quality responses to user inquiries from existing big language models.
+
+1. [News](https://www.marktechpost.com/2023/04/06/uc-berkeley-researchers-introduce-koala-a-new-ai-chatbot-from-fine-tuned-on-dialogue-close-to-chatgpt-quality/)
+2. [Demo](https://chat.lmsys.org/?model=koala-13b)",2023-05-03
+"Using HuggingGPT, solving AI Tasks","Requirements:
+1. [HuggingFace account](https://huggingface.co/)
+2. Generating a Hugging Face Token: From left menu,
+ ```
+Access Tokens ➡︎ New token ➡︎ Name it and change Role to write
+```     
+3. Visit [HuggingGPT](https://huggingface.co/spaces/microsoft/HuggingGPT), 
+ and paste openai token and huggingFace token to try!",2023-05-03
