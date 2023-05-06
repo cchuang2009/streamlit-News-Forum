@@ -160,3 +160,13 @@ Access Tokens ➡︎ New token ➡︎ Name it and change Role to write
 ```     
 3. Visit [HuggingGPT](https://huggingface.co/spaces/microsoft/HuggingGPT), 
  and paste openai token and huggingFace token to try!",2023-05-03
+"ArxivGPT, a Google chrome Extension ","Summarize a arXiv paper and provide key insights.
+
+- [Extension link](https://chrome.google.com/webstore/detail/arxivgpt/fbbfpcjhnnklhmncjickdipdlhoddjoh)
+- [test link](https://arxiv.org/abs/1711.09020) article, StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation
+",2023-05-06
+Try AutoGPT,"It is an experimental open-source application that is an early instance of a fully autonomous GPT-4 implementation. Now we can try creating your own autonomous agents:
+
+- [AgentGPT](https://agentgpt.reworkd.ai/), create, configure, and deploy autonomous AI agents, which can be instructed to pursue any imaginable goal, to achieve the goal by devising tasks, executing them, and learning from the outcomes.
+- [Cognysys AI](https://app.cognosys.ai/),  a web-based AI agent, GPT-3.5, drawing inspiration from the revolutionary BabyAGI project.
+- [GodMode](https://godmode.space/), is come with web app features a straightforward interface with a text prompt.",2023-05-06
