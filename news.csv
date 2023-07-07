@@ -170,4 +170,5 @@ Try AutoGPT,"It is an experimental open-source application that is an early inst
 - [AgentGPT](https://agentgpt.reworkd.ai/), create, configure, and deploy autonomous AI agents, which can be instructed to pursue any imaginable goal, to achieve the goal by devising tasks, executing them, and learning from the outcomes.
 - [Cognysys AI](https://app.cognosys.ai/),  a web-based AI agent, GPT-3.5, drawing inspiration from the revolutionary BabyAGI project.
 - [GodMode](https://godmode.space/), is come with web app features a straightforward interface with a text prompt.",2023-05-06
-Transformer Time-series vs Classical one,"[Transformer model is much effective than classical one](https://huggingface.co/blog/autoformer), an example given by autoformer (Transformer)",2023-07-07
+Transformer Time-series vs Classical one,"[Transformer model is much effective than classical one](https://huggingface.co/blog/autoformer), an example given by autoformer (Transformer)",2023-06-07
+Deploy LLMs with Hugging Face Inference Endpoints,Follows the [article](https://huggingface.co/blog/inference-endpoints-llm) to implement your LLM box based on [HugginFace propject](https://huggingface.co/),2023-07-07
