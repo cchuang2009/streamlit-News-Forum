@@ -193,3 +193,12 @@ AudioGPT: A Multi-Modal AI System Connecting ChatGPT With Audio Foundation Model
 
 - [src](https://www.marktechpost.com/2023/07/15/meet-audiogpt-a-multi-modal-ai-system-connecting-chatgpt-with-audio-foundation-models/)
 - [github](https://github.com/aigc-audio/audiogpt)",2023-07-18
+"TypeChat,  Build Natural Language Interfaces Using Types Easily"," TypeChat is a [GitHub project](https://github.com/microsoft/TypeChat), opened by Microsoft,  that aims to bridge the gap between APIs, application schemas, and natural language through TypeScript and generative AI. 
+
+The developers of TypeChat claim that this product may effectively replace prompt engineering with schema engineering. User can find demonstration of system setup for labeling emotions or as sophisticated as a set of categories for a digital music store and others in [github site](https://github.com/microsoft/TypeChat).
+
+[src](https://www.marktechpost.com/2023/07/26/microsoft-releases-typechat-an-ai-library-that-makes-it-easy-to-build-natural-language-interfaces-using-types/)",2023-07-30
+WebArena: A Realistic and Reproducible Web Environment with 4+ Real-World Web Apps,"New research by Carnegie Mellon University and Inspired Cognition present WebArena, a simulated web environment with reproducible conditions that may be used to train autonomous agents to carry out certain tasks. The environment consists of four live, self-hosted web apps, one each for e-commerce, online discussion forums, collaborative software development, and enterprise content management.
+
+- [src](https://www.marktechpost.com/2023/07/27/cmu-researchers-introduce-webarena-a-realistic-and-reproducible-web-environment-with-4-real-world-web-apps-for-benchmarking-useful-agents/)
+- [github](https://github.com/web-arena-x/webarena)",2023-07-30
