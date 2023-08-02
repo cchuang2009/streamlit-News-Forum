@@ -202,3 +202,8 @@ WebArena: A Realistic and Reproducible Web Environment with 4+ Real-World Web Ap
 
 - [src](https://www.marktechpost.com/2023/07/27/cmu-researchers-introduce-webarena-a-realistic-and-reproducible-web-environment-with-4-real-world-web-apps-for-benchmarking-useful-agents/)
 - [github](https://github.com/web-arena-x/webarena)",2023-07-30
+FreeWilly(1-2): New Open Access Large Language Models (LLMs),"Stability AI Team Introduces FreeWilly(1-2) which uses the LLaMA 2 70B base model to achieve performance on par with GPT-3.5 on some tasks and was heavily influenced by Microsoft’s ground-breaking approach: Progressive Learning from Complex Explanation Traces of GPT-4. The researchers 
+acclaimed  that FreeWilly models are top-notch when resolving difficult issues in specialized disciplines like law and mathematics, performing intricate reasoning, and recognizing language nuance.
+
+1. [src](https://www.marktechpost.com/2023/07/23/stability-ai-team-introduces-freewilly1-and-freewilly2-new-open-access-large-language-models-llms/)
+2. [FreeWilly2](https://huggingface.co/stabilityai/FreeWilly2)",2023-08-01
