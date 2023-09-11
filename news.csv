@@ -207,3 +207,16 @@ acclaimed  that FreeWilly models are top-notch when resolving difficult issues i
 
 1. [src](https://www.marktechpost.com/2023/07/23/stability-ai-team-introduces-freewilly1-and-freewilly2-new-open-access-large-language-models-llms/)
 2. [FreeWilly2](https://huggingface.co/stabilityai/FreeWilly2)",2023-08-01
+"DevOpsGPT, A Multi-Agent System that Combines LLM with DevOps Tools","
+
+- DevOpsGPT provides not just the advantages below but also the following perks and features:
+- DevOpsGPT supports several programming languages and may create code in Python, Java, and C++, among others.
+- DevOpsGPT is adaptable and can be tailored to the unique requirements of any business.
+- DevOpsGPT’s scalability means it may be used to automate software creation at massive corporations.
+
+1. [src](https://www.marktechpost.com/2023/08/30/meet-devopsgpt-a-multi-agent-system-that-combines-llm-with-devops-tools-to-convert-natural-language-requirements-into-working-software/)
+2. [github](https://github.com/kuafuai/DevOpsGPT)",2023-08-31
+Falcon 108B unveiled,"Training on the 3.5 tri trillion tokens usingon RefinedWeb dtaset, USE unveiled the last Falcon and acclaimed that it  surpasses Llama2 and GPT 3.5.
+
+-  [News and test](https://huggingface.co/spaces/tiiuae/falcon-180b-demo)
+-  [Model Code](https://huggingface.co/tiiuae/falcon-180B)",2023-09-11
