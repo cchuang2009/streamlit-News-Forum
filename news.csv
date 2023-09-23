@@ -220,3 +220,15 @@ Falcon 108B unveiled,"Training on the 3.5 tri trillion tokens usingon RefinedWeb
 
 -  [News and test](https://huggingface.co/spaces/tiiuae/falcon-180b-demo)
 -  [Model Code](https://huggingface.co/tiiuae/falcon-180B)",2023-09-11
+MAmmoTH: LLMs forGeneral Math Problem-Solving,"Develop team presents a novel hybrid instruction-tuning dataset for mathematics withprimary features are:
+
+1. Comprehensive coverage of a variety of mathematical areas and complexity levels
+2. Hybrid CoT & PoT rationales. 
+    - Chain-of-Thought (CoT), describes how they solve a mathematical issue in natural language steps.
+    - POT, uses third-party resources to streamline the math-solving procedure. 
+
+Resources:
+
+1. [News](https://www.marktechpost.com/2023/09/22/meet-mammoth-a-series-of-open-source-large-language-models-llms-specifically-tailored-for-general-math-problem-solving/)
+2. [GitHub](https://github.com/TIGER-AI-Lab/MAmmoTH)
+3. [Project](https://tiger-ai-lab.github.io/MAmmoTH/)",2023-09-23
