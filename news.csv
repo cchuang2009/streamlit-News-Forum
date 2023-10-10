@@ -232,3 +232,19 @@ Resources:
 1. [News](https://www.marktechpost.com/2023/09/22/meet-mammoth-a-series-of-open-source-large-language-models-llms-specifically-tailored-for-general-math-problem-solving/)
 2. [GitHub](https://github.com/TIGER-AI-Lab/MAmmoTH)
 3. [Project](https://tiger-ai-lab.github.io/MAmmoTH/)",2023-09-23
+AnimateDiff: easy text-to-video,"AnimateDiff is one of the easiest ways to generate videos with Stable Diffusion. Now we can use this GUI on [Windows](https://stable-diffusion-art.com/install-windows/), [Mac](https://stable-diffusion-art.com/install-mac/), or [Google Colab](https://stable-diffusion-art.com/automatic1111-colab/).
+
+[Src and Tutorial](https://stable-diffusion-art.com/animatediff/)",2023-10-10
+Boolformer Model,"Researchers from Apple and EPFL Introduce the Boolformer Model: The First Transformer Architecture Trained to Perform End-to-End Symbolic Regression of Boolean Functions
+
+
+- [News](https://www.marktechpost.com/2023/09/30/researchers-from-apple-and-epfl-introduce-the-boolformer-model-the-first-transformer-architecture-trained-to-perform-end-to-end-symbolic-regression-of-boolean-functions/)
+- [Src, Github](https://github.com/sdascoli/boolformer)",2023-10-10
+AdaptLLM: Microsoft Announces a New Approach to Training Language Models,", Mimicking Human Reading Comprehension for Enhanced Performance in Biomedicine, Finance, and Law. 
+ 
+They present a straightforward recipe that mechanically turns massive raw corpora into reading comprehension texts. Their tests demonstrate that their approach regularly enhances model performance in three distinct fields: biology, finance, and law.
+
+
+- [News](https://www.marktechpost.com/2023/09/26/this-ai-paper-from-microsoft-introduces-a-new-approach-to-training-language-models-mimicking-human-reading-comprehension-for-enhanced-performance-in-biomedicine-finance-and-law/)
+- [Paper](https://arxiv.org/abs/2309.09530)
+- [Src, Github](https://github.com/microsoft/LMOps)",2023-10-10
