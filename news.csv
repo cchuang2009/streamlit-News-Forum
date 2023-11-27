@@ -248,3 +248,16 @@ They present a straightforward recipe that mechanically turns massive raw corpor
 - [News](https://www.marktechpost.com/2023/09/26/this-ai-paper-from-microsoft-introduces-a-new-approach-to-training-language-models-mimicking-human-reading-comprehension-for-enhanced-performance-in-biomedicine-finance-and-law/)
 - [Paper](https://arxiv.org/abs/2309.09530)
 - [Src, Github](https://github.com/microsoft/LMOps)",2023-10-10
+Φ-SO: A Physical Symbolic Optimization Framework,"It uses Deep Reinforcement Learning to Discover Physical Laws from Data. Φ-SO has been developed in such a way that it carefully constructs solutions that fit together with uniform physical units. It goes one step further and offers analytical approximations even in the presence of noisy data, demonstrating its adaptability and practicality.
+
+Resources
+---
+1. [Link](https://www.marktechpost.com/2023/11/23/this-ai-paper-introduces-%CF%86-so-a-physical-symbolic-optimization-framework-that-uses-deep-reinforcement-learning-to-discover-physical-laws-from-data/)
+2. [Paper](https://arxiv.org/abs/2303.03192)
+3. [GitHub](https://github.com/WassimTenachi/PhySO)",2023-11-27
+Poro: A Revolutionary Open Source Language Model Boosting European Multilingual AI Capabilities,"Poro,  an open-source solution developed by a Finnish AI startup, is a large language model that aims to cover all 24 official languages of the European Union. The idea is to create a family of models that understand and represent the diversity of European languages. The startup believes that this is important for digital sovereignty, ensuring that the value created by these models stays within Europe.
+
+Resources
+---
+1. [Link](https://www.marktechpost.com/2023/11/22/this-finland-based-ai-startup-unveils-poro-a-revolutionary-open-source-language-model-boosting-european-multilingual-ai-capabilities/)
+2. [Hugging-Face](https://huggingface.co/LumiOpen/Poro-34B)",2023-11-27
