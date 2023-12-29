@@ -261,3 +261,11 @@ Resources
 ---
 1. [Link](https://www.marktechpost.com/2023/11/22/this-finland-based-ai-startup-unveils-poro-a-revolutionary-open-source-language-model-boosting-european-multilingual-ai-capabilities/)
 2. [Hugging-Face](https://huggingface.co/LumiOpen/Poro-34B)",2023-11-27
+"Use Gemini in Bard, Google AI chat","[Src](https://www.geeky-gadgets.com/how-to-get-the-most-out-of-gemini-in-google-bard/)
+
+Gemini is a neural network architecture that was developed by Google AI. It is based on a new type of training algorithm called self-supervised learning.  ""Bard Gemini Pro."" is available in Bard interface without any additional activation.
+1. Gemini can generate different creative text formats of text content, like poems, code, scripts, musical pieces, emails, letters, etc.
+2. To use Gemini for question answering, you will need to provide it with a question. The question should be as clear and concise as possible.
+3. To use Gemini for tasks such as writing, translating languages, and generating creative text formats of text content, you will need to provide it with instructions. The instructions should be as clear and concise as possible.
+
+[Bard](https://bard.google.com/)",2023-12-29
