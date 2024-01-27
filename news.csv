@@ -269,3 +269,8 @@ Gemini is a neural network architecture that was developed by Google AI. It is b
 3. To use Gemini for tasks such as writing, translating languages, and generating creative text formats of text content, you will need to provide it with instructions. The instructions should be as clear and concise as possible.
 
 [Bard](https://bard.google.com/)",2023-12-29
+LLM Introduction on Github,"1. 🧩 LLM Fundamentals covers essential knowledge about mathematics, Python, and neural networks.
+2. 🧑‍🔬 The LLM Scientist focuses on building the best possible LLMs using the latest techniques.
+3. 👷 The LLM Engineer focuses on creating LLM-based applications and deploying them.
+
+[Src](https://github.com/mlabonne/llm-course)",2024-01-27
