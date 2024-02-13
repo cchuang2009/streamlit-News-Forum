@@ -274,3 +274,31 @@ LLM Introduction on Github,"1. 🧩 LLM Fundamentals covers essential knowledge 
 3. 👷 The LLM Engineer focuses on creating LLM-based applications and deploying them.
 
 [Src](https://github.com/mlabonne/llm-course)",2024-01-27
+Better Prompt for ChatGPT ans LLM's Perfomance,"From OpenAI:
+- Include details in the query,
+- Assign a role (""You are an expert …"")
+- Use `delimiters (triple quotes)` to identify specific parts of the query
+- Specify the steps required to complete a task
+- Provide examples
+- Specify the desired length of output
+
+From chatgpt:
+ - Desired Length: Approximately 150-200 words.
+
+Src: [The decoders](https://the-decoder.com/openai-releases-prompt-guide-for-better-chatgpt-and-llm-performance/)",2024-02-13
+Could AI replace All ('coders'),"[Src] (https://peterhdiamandis.medium.com/will-ai-replace-all-coders-1979a8ac4279)
+
+
+Conclusion:
+
+1. While AI may have the potential to replace coders, its primary function is to augment rather than entirely supplant them.
+2. AI can enhance software development by automating tasks and providing powerful tools, thereby increasing efficiency and creativity.
+3. Human ingenuity, problem-solving abilities, and domain expertise remain crucial for innovation and tackling complex challenges.
+4. Viewing AI as a collaborative partner rather than a threat can lead to exciting opportunities for cooperation.
+5. Embracing adaptability, continuous learning, and collaboration will be key to maximizing the potential of AI in coding and other domains.
+
+1. 儘管AI可能取代程式設計師，但它更多地是在增強而非完全取代他們。
+2. AI透過自動化任務和提供強大工具，可以提高軟體開發的效率和創造力。
+3. 人類的聰明才智、解決問題的能力和領域專業知識在創新和複雜挑戰方面仍然至關重要。
+4. 將AI視為合作夥伴而不是威脅，可以帶來令人興奮的合作機會。
+5. 擁抱適應性、持續學習和合作的心態將有助於最大程度地利用AI在編碼和其他領域中的潛力。",2024-02-13
