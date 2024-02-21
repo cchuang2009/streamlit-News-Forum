@@ -302,3 +302,6 @@ Conclusion:
 3. 人類的聰明才智、解決問題的能力和領域專業知識在創新和複雜挑戰方面仍然至關重要。
 4. 將AI視為合作夥伴而不是威脅，可以帶來令人興奮的合作機會。
 5. 擁抱適應性、持續學習和合作的心態將有助於最大程度地利用AI在編碼和其他領域中的潛力。",2024-02-13
+" Groq is the new AI platform,","Forget ChatGPT, you can run [Groq](https://groq.com/) Freely, which is speedy than average of others.  There are two kinds of LLM s available: Mistral 8x7b-32k nd Llama 2-70b-32k.
+
+Unlike others use GPU to train the models, Groq built chips that they’re calling language processing units (LPUs) that are designed for working with large language modes (LLMs).",2024-02-21
