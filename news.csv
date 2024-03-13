@@ -305,3 +305,10 @@ Conclusion:
 " Groq is the new AI platform,","Forget ChatGPT, you can run [Groq](https://groq.com/) Freely, which is speedy than average of others.  There are two kinds of LLM s available: Mistral 8x7b-32k nd Llama 2-70b-32k.
 
 Unlike others use GPU to train the models, Groq built chips that they’re calling language processing units (LPUs) that are designed for working with large language modes (LLMs).",2024-02-21
+Orca-Math: A 7B Parameters Small Language Model (SLM) ,"Created by Microsoft Research, it is a crafted synthetic dataset comprising 200,000 math problems.   As the model navigates through this dataset, it attempts to solve problems and receives detailed feedback on its efforts. 
+
+In conclusion, Orca-Math embodies a groundbreaking approach to learning that melds the realms of artificial intelligence and education to tackle the perennial challenge of teaching complex problem-solving skills. 
+
+Reference
+---
+Paper, https://arxiv.org/abs/2402.14830",2024-03-13
