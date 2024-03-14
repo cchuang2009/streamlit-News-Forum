@@ -312,3 +312,11 @@ In conclusion, Orca-Math embodies a groundbreaking approach to learning that mel
 Reference
 ---
 Paper, https://arxiv.org/abs/2402.14830",2024-03-13
+Launching the first GenAI-native document parsing platform,"The mission at LlamaIndex is to connect the world’s data to the power of LLMs, and today we’re pleased to announce our latest big step towards that goal with the world’s first GenAI-native document parsing platform, LlamaParse.
+
+The key insight behind parsing instructions is that you know what kind of documents you have;  including:
+1. rich table support,
+2. parsing comic books
+3. slving mathematical equations;
+
+The more sees [the link](https://www.llamaindex.ai/blog/launching-the-first-genai-native-document-parsing-platform)",2024-03-15
