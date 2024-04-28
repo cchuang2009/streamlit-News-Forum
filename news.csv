@@ -1,6 +1,5 @@
 Title,Source,Published_date
-Template,"
-This is a simple news board artifact created by chatgpt. To provide the data inthis artifact, only create the file `news.csv` as follows:
+Template,"This is a simple news board artifact created by chatgpt. To provide the data inthis artifact, only create the file `news.csv` as follows:
 ```
 Title,Source,Publish_date
 ""title1"",""news content1"",YYYY-MM-DD
@@ -10,9 +9,8 @@ where `YYYY-MM-DD` is the datetime format, such as `2023-02-01`. If `""` symobl 
 To prepare the ""news.csv"", and run the following on shell to startup:
 ```
 python run app.py
-```
-",2023-02-20
-Audio and Video AI Tools," Some useful AI tools,
+```",2023-02-20
+Audio and Video AI Tools,"Some useful AI tools,
 1. VoicePen AI (https://voicepen.ai): An AI tool that converts audio content into blog posts, making it easier for businesses and individuals to generate written content from recorded conversations and lectures.
 2. Krisp (https://krisp.ai/): An AI tool that removes background voices, noises, and echoes from calls, allowing users to conduct clear, professional audio conversations from any location.
 3. Beatoven (https://www.beatoven.ai/): An AI tool that creates custom royalty-free music, enabling businesses and individuals to add unique, original music to their projects without the hassle of licensing.
@@ -22,14 +20,12 @@ Audio and Video AI Tools," Some useful AI tools,
 7. Maverick (https://lnkd.in/eptCVijb): An AI tool for generating personalized videos at scale, making it easier for businesses to create and distribute video content that is relevant and engaging to their target audience.
 8. Soundraw (https://soundraw.io/): An AI tool for creating original music, providing businesses and individuals with a simple, intuitive way to create and publish their own music.
 9. Otter (https://otter.ai/): An AI tool for capturing and sharing insights from meetings, making it easier for teams to stay on top of important discussions and decisions.",2023-03-19
-Design AI Tools,"
-1. Flair (https://flair.ai/): An AI tool for designing branded content, allowing businesses and individuals to create professional-looking graphics and design elements easily.
+Design AI Tools,"1. Flair (https://flair.ai/): An AI tool for designing branded content, allowing businesses and individuals to create professional-looking graphics and design elements easily.
 2. Illustroke (https://illustroke.com/): An AI tool for creating vector images from text prompts, making it easier for designers to create custom graphics and images for their projects.
 3. Patterned (https://www.patterned.ai/): An AI tool for generating patterns for design, allowing businesses and individuals to add unique, eye-catching patterns to their projects without the hassle of creating them from scratch.
 4. Stockimg (https://stockimg.ai/): An AI tool for generating the perfect stock photo, making it easier for businesses and individuals to find and use high-quality stock images in their projects.
 5. Looka (https://looka.com/): An AI tool for designing your brand, providing businesses and individuals with a simple, intuitive way to create a professional-looking brand identity.",2023-03-19
-Copy and Content AI Tools,"
-1. Copy.ai: AI tool for generating copy that increases conversions. With its advanced AI algorithms, it can write sales pages, blog posts, ads, and more in minutes. https://www.copy.ai/
+Copy and Content AI Tools,"1. Copy.ai: AI tool for generating copy that increases conversions. With its advanced AI algorithms, it can write sales pages, blog posts, ads, and more in minutes. https://www.copy.ai/
 2. CopyMonkey: AI tool for creating Amazon listings in seconds. It offers a suite of tools to automate your Amazon business, from keyword research to copywriting. http://copymonkey.ai/
 3. Ocoya: AI tool for creating and scheduling social media content. It helps you plan and publish your social media posts effortlessly, so you can focus on what really matters: engaging with your audience. https://www.ocoya.com/
 4. Unbounce Smart Copy: AI tool for writing high-performing cold emails at scale. It helps you write emails that get opened, clicked and replied to, so you can focus on closing deals. https://unbounce.com/
@@ -45,8 +41,7 @@ Utilities,"
 - https://WatermarkRemover.io, WatermarkRemover.io is an AI-powered tool that can remove watermarks from images automatically in a matter of seconds.
 - Supermeme.ai, The evolution of memes has paved the way for an entirely new form of communication.
 - Soundful.com,Soundful.com is a platform designed for creating music using artificial intelligence.",2023-03-19
-AI coding,"
-1. speech to text, OpenAI’s Whisper API has opened up a world of possibilities for speech-to-text conversion in Python programming. [link](https://medium.com/codingthesmartway-com-blog/speech-to-text-with-openais-new-whisper-api-in-python-7e8fb5c6bf2d),
+AI coding,"1. speech to text, OpenAI’s Whisper API has opened up a world of possibilities for speech-to-text conversion in Python programming. [link](https://medium.com/codingthesmartway-com-blog/speech-to-text-with-openais-new-whisper-api-in-python-7e8fb5c6bf2d),
 ```python
 # python-whisper-api.py
 import os
@@ -64,10 +59,9 @@ python python-whisper-api.py
 2.  Web scraping, [link](https://medium.com/codingthesmartway-com-blog/how-to-use-chatgpt-to-fully-automate-web-scraping-6bb0dab97943)",2023-03-19
 Opera browser gets ChatGPT with ‘AI Prompts’,"Lastet Opera integrated buid-in AI-Prompts, for hand-on using OpenAI’s generative artificial intelligence: just mark the area and query.  Get it from [Opera Download](https://www.opera.com/?utm_campaign=%2300%20-%20WW%20-%20Search%20-%20EN%20-%20Branded&gclid=Cj0KCQjw8e-gBhD0ARIsAJiDsaUnKtu5GWF2ekZmF2Oa57ix14Y-EH3MMmaxemA3hrZUdTzZvThINksaAnh7EALw_wcB) and enable `AI Prompts [ Early acces]` from `Easy Setup`, on the top right menu of browser.",2023-03-23
 "Web Stable Diffusion: An AI Project, generated image by browser",Brings Stable Diffusion Models To Web Browsers. Query for AI to generate image by browser only. Check out the [Tool](https://mlc.ai/web-stable-diffusion/) and [Github Link](https://github.com/mlc-ai/web-stable-diffusion),2023-03-23
-"Web Stable Diffusion: An AI Project, generated image by browser","[github](https://github.com/THUDM/ChatGLM-6B/blob/main/README_en.md), [Project](https://chatglm.cn/blog)
-",2023-03-24
+"Web Stable Diffusion: An AI Project, generated image by browser","[github](https://github.com/THUDM/ChatGLM-6B/blob/main/README_en.md), [Project](https://chatglm.cn/blog)",2023-03-24
 Building ML Apps on Hugging Face Hub,"1. [Build Machine Learning Apps with Hugging Face](https://www.docker.com/blog/build-machine-learning-apps-with-hugging-faces-docker-spaces/),  [Hugging Face Hub](https://huggingface.co/docs/hub/index) enables collaborative open source machine learning. Using its ""Space"" and SDKs, including Streamlit, Docker etc.
-2. [Democratize AI by Docker and Hugging Face](https://www.docker.com/blog/docker-and-hugging-face-partner-to-democratize-ai/),  Introduction for Docker on  Spcae of [Hugging Face Hub](https://huggingface.co/docs/hub/index) ",2023-03-26
+2. [Democratize AI by Docker and Hugging Face](https://www.docker.com/blog/docker-and-hugging-face-partner-to-democratize-ai/),  Introduction for Docker on  Spcae of [Hugging Face Hub](https://huggingface.co/docs/hub/index)",2023-03-26
 SciSpace Copilot Chrome Extension,"A free chrome extension which gives you real-time answers to articles, no matter where you read them online:
 
 [News](https://typeset.io/copilot-chrome-plugin)",2023-04-11
@@ -146,7 +140,7 @@ ChatGPT for Jupyter: The ChatGPT Extension for Jupyter Notebooks,"Install ChatGP
 1. [Chrome, ChatGPT Jupyter, AI Assistant](https://chrome.google.com/webstore/detail/chatgpt-jupyter-ai-assist/dlipncbkjmjjdpgcnodkbdobkadiejll)
 2.  [Firefox](https://github.com/TiesdeKok/chat-gpt-jupyter-extension#installation)
 
-Then choose model and input OpenAI API key. This extension allows you to automatically add comments, docstrings, and formatting to your cell. ",2023-04-29
+Then choose model and input OpenAI API key. This extension allows you to automatically add comments, docstrings, and formatting to your cell.",2023-04-29
 "Generator, Create a Logo and Visual Brand With AI, a Case Study","[Generator](https://medium.com/the-generator) is a new project, which is a Medium-partnered, Boost-eligible publication about generative AI.",2023-04-29
 Koala: A New AI  Fine-Tuned  Chatbot ,"UC Berkely AI research presents a novel model, Koala. Koala, which  is trained using data that includes interaction with capable closed-source models like ChatGPT. The researchers fine-tune a LLaMA base model. The datasets include high-quality responses to user inquiries from existing big language models.
 
@@ -163,8 +157,7 @@ Access Tokens ➡︎ New token ➡︎ Name it and change Role to write
 "ArxivGPT, a Google chrome Extension ","Summarize a arXiv paper and provide key insights.
 
 - [Extension link](https://chrome.google.com/webstore/detail/arxivgpt/fbbfpcjhnnklhmncjickdipdlhoddjoh)
-- [test link](https://arxiv.org/abs/1711.09020) article, StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation
-",2023-05-06
+- [test link](https://arxiv.org/abs/1711.09020) article, StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation",2023-05-06
 Try AutoGPT,"It is an experimental open-source application that is an early instance of a fully autonomous GPT-4 implementation. Now we can try creating your own autonomous agents:
 
 - [AgentGPT](https://agentgpt.reworkd.ai/), create, configure, and deploy autonomous AI agents, which can be instructed to pursue any imaginable goal, to achieve the goal by devising tasks, executing them, and learning from the outcomes.
@@ -173,7 +166,7 @@ Try AutoGPT,"It is an experimental open-source application that is an early inst
 Transformer Time-series vs Classical one,"[Transformer model is much effective than classical one](https://huggingface.co/blog/autoformer), an example given by autoformer (Transformer)",2023-06-07
 Transformer Time-series vs Classical one,"[Transformer model is much effective than classical one](https://huggingface.co/blog/autoformer), an example given by autoformer (Transformer)",2023-07-07
 Deploy LLMs with Hugging Face Inference Endpoints,Follows the [article](https://huggingface.co/blog/inference-endpoints-llm) to implement your LLM box based on [HugginFace propject](https://huggingface.co/),2023-07-07
-MosaicML Releases Open-Source MPT-30B LLMs, [MosaicML’s MPT](https://insidebigdata.com/2023/06/28/generative-ai-report-mosaicml-releases-open-source-mpt-30b-llms-trained-on-h100s-to-power-generative-ai-applications/) models are optimized for efficient training and inference.,2023-07-07
+MosaicML Releases Open-Source MPT-30B LLMs,[MosaicML’s MPT](https://insidebigdata.com/2023/06/28/generative-ai-report-mosaicml-releases-open-source-mpt-30b-llms-trained-on-h100s-to-power-generative-ai-applications/) models are optimized for efficient training and inference.,2023-07-07
 Truths known about LLM's,"Exports conclude the following about LLM's:
 1. The capabilities of LLMs will increase predictably with more investment, even in the absence of deliberate innovation.
 2. As resources are poured into LLM, unexpectedly crucial behaviors often emerge.
@@ -193,7 +186,7 @@ AudioGPT: A Multi-Modal AI System Connecting ChatGPT With Audio Foundation Model
 
 - [src](https://www.marktechpost.com/2023/07/15/meet-audiogpt-a-multi-modal-ai-system-connecting-chatgpt-with-audio-foundation-models/)
 - [github](https://github.com/aigc-audio/audiogpt)",2023-07-18
-"TypeChat,  Build Natural Language Interfaces Using Types Easily"," TypeChat is a [GitHub project](https://github.com/microsoft/TypeChat), opened by Microsoft,  that aims to bridge the gap between APIs, application schemas, and natural language through TypeScript and generative AI. 
+"TypeChat,  Build Natural Language Interfaces Using Types Easily","TypeChat is a [GitHub project](https://github.com/microsoft/TypeChat), opened by Microsoft,  that aims to bridge the gap between APIs, application schemas, and natural language through TypeScript and generative AI. 
 
 The developers of TypeChat claim that this product may effectively replace prompt engineering with schema engineering. User can find demonstration of system setup for labeling emotions or as sophisticated as a set of categories for a digital music store and others in [github site](https://github.com/microsoft/TypeChat).
 
@@ -207,9 +200,7 @@ acclaimed  that FreeWilly models are top-notch when resolving difficult issues i
 
 1. [src](https://www.marktechpost.com/2023/07/23/stability-ai-team-introduces-freewilly1-and-freewilly2-new-open-access-large-language-models-llms/)
 2. [FreeWilly2](https://huggingface.co/stabilityai/FreeWilly2)",2023-08-01
-"DevOpsGPT, A Multi-Agent System that Combines LLM with DevOps Tools","
-
-- DevOpsGPT provides not just the advantages below but also the following perks and features:
+"DevOpsGPT, A Multi-Agent System that Combines LLM with DevOps Tools","- DevOpsGPT provides not just the advantages below but also the following perks and features:
 - DevOpsGPT supports several programming languages and may create code in Python, Java, and C++, among others.
 - DevOpsGPT is adaptable and can be tailored to the unique requirements of any business.
 - DevOpsGPT’s scalability means it may be used to automate software creation at massive corporations.
@@ -305,7 +296,7 @@ Conclusion:
 " Groq is the new AI platform,","Forget ChatGPT, you can run [Groq](https://groq.com/) Freely, which is speedy than average of others.  There are two kinds of LLM s available: Mistral 8x7b-32k nd Llama 2-70b-32k.
 
 Unlike others use GPU to train the models, Groq built chips that they’re calling language processing units (LPUs) that are designed for working with large language modes (LLMs).",2024-02-21
-Orca-Math: A 7B Parameters Small Language Model (SLM) ,"Created by Microsoft Research, it is a crafted synthetic dataset comprising 200,000 math problems.   As the model navigates through this dataset, it attempts to solve problems and receives detailed feedback on its efforts. 
+Orca-Math: A 7B Parameters Small Language Model (SLM),"Created by Microsoft Research, it is a crafted synthetic dataset comprising 200,000 math problems.   As the model navigates through this dataset, it attempts to solve problems and receives detailed feedback on its efforts. 
 
 In conclusion, Orca-Math embodies a groundbreaking approach to learning that melds the realms of artificial intelligence and education to tackle the perennial challenge of teaching complex problem-solving skills. 
 
@@ -320,3 +311,19 @@ The key insight behind parsing instructions is that you know what kind of docume
 3. slving mathematical equations;
 
 The more sees [the link](https://www.llamaindex.ai/blog/launching-the-first-genai-native-document-parsing-platform)",2024-03-15
+"CopilotKit:, An Open-Source Copilot Platform","Seamless AI Integration in Any Application:
+Useges:
+```
+git clone https://github.com/CopilotKit/presentation-demo
+npm install
+cat >.env.local
+   OPENAI_API_KEY = ""....""
+   TAVILY_API_KEY = ""........""
+npm run dev
+```
+Open http://localhost:3000 to try with the demo<br>
+“Create a slide on the benefits of AI in healthcare.”
+
+1. [news](https://www.marktechpost.com/2024/04/24/meet-copilotkit-an-open-source-copilot-platform-for-seamless-ai-integration-in-any-application/)
+2. [Github hrc](https://github.com/CopilotKit/CopilotKit)
+3. [TAVIly API Key](https://app.tavily.com/)",2024-04-28
