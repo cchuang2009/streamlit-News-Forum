@@ -357,3 +357,29 @@ Usage references the original src or https://huggingface.co/microsoft/Phi-3-visi
 
 
 - [Src](https://towardsdatascience.com/6-real-world-uses-of-microsofts-newest-phi-3-vision-language-model-8ebbfa317fe8)",2024-05-27
+"The Simplest, Install Rug Locally","Use 3 steps to set up RuG on local box:
+1. Install [OLlma](https://github.com/ollama/ollama)
+2. Dowownload Lllma:
+```shell
+ollama run llama3
+```
+3. Install `LlamaIndex`, with Ollama running with the Llama3 model actived:
+```python
+from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, Settings
+from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+from llama_index.llms.ollama import Ollama
+#Saved in subfolder, data
+documents = SimpleDirectoryReader(""data"").load_data()
+# Embeddings model
+Settings.embed_model = HuggingFaceEmbedding(model_name=""BAAI/bge-base-en-v1.5"")
+# Language model
+Settings.llm = Ollama(model=""llama3"", request_timeout=360.0)
+# Create index
+index = VectorStoreIndex.from_documents(documents)
+queryquery_engine = index.as_query_engine()
+response = query_engine.query(""What are the 5 stages of RAG?"")
+print(response)
+```
+
+[Article](https://www.kdnuggets.com/3-simple-steps-to-local-rag-with-your-content)
+",2024-06-29
