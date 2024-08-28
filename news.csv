@@ -383,3 +383,11 @@ print(response)
 
 [Article](https://www.kdnuggets.com/3-simple-steps-to-local-rag-with-your-content)
 ",2024-06-29
+"Fox-1, an app  for Small Language Models ","Fox-1 is its integration into TensorOpera’s AI and FedML platforms, which facilitates the deployment, training, and creation of AI applications across various platforms and devices, ranging from high-powered GPUs in the cloud to edge devices like smartphones and AI-enabled PCs. 
+
+-  [Article](https://www.marktechpost.com/2024/07/28/tensoropera-unveils-fox-foundation-model-a-unique-step-in-small-language-models-enhancing-scalability-and-efficiency-for-cloud-and-edge-computing/)
+- [model](https://huggingface.co/tensoropera/Fox-1-1.6B?ref=blog.tensoropera.ai)
+",2024-07-29
+"Cerebras, the new AI Inference","It acclaims : the fastest inference API with the best performance in AI. 
+
+[Try it](https://cerebras.ai/)",2024-08-28
