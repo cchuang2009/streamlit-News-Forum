@@ -409,3 +409,10 @@ print(response)
 [Reference]
 
 1. [News](https://dev.to/nevodavid/8-must-know-open-source-repositories-to-build-cool-ai-apps-4joc)",2024-09-26
+"Learning LLMs in Two Week, 兩個禮拜學習大型語言系統","Follow the [Github repo](https://github.com/hesamsheikh/ml-retreat) to learn LLM's,<br>
+Also come from the book,  [build-a-large-language-model-from-scratch)](https://www.manning.com/books/build-a-large-language-model-from-scratch), written by <b>Sebastian Raschka.</b>.",2024-10-31
+SWE-Agent,"Unlike traditional language models that require human intervention to execute code and correct errors, SWE-Agent operates independently within a computer environment. It interacts with filesystems, executes commands, and modifies code based on feedback from the environment.
+
+SWE-Agent 除了獨立運行之外並接受人工的修正回饋，增加準確率.
+
+[Github repo](https://github.com/princeton-nlp/SWE-agent?tab=readme-ov-file)",2024-10-31
