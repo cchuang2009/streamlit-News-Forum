@@ -416,3 +416,12 @@ SWE-Agent,"Unlike traditional language models that require human intervention to
 SWE-Agent 除了獨立運行之外並接受人工的修正回饋，增加準確率.
 
 [Github repo](https://github.com/princeton-nlp/SWE-agent?tab=readme-ov-file)",2024-10-31
+Mistral Model Explained,"Since first released at 2023, Mistral 7B re-prsentents a milestone of LLM development. 
+
+Here,  a detail aboyt this model, [Medium article](https://towardsdatascience.com/mistral-7b-explained-towards-more-efficient-language-models-7f9c6e6b7251)",2024-11-30
+"ft-Q, Introduction, Improving Compression with Feature-Level Quantization","Compressing data could dismiss the size of data but loss message. <br>
+[ft-Q](https://towardsdatascience.com/introducing-ft-q-improving-vector-compression-with-feature-level-quantization-3c18470ed2ee) bings the new scheme to compress data efficiently, code included",2024-11-30
+SmolVLM - small  Vision Language Model,"SmolVLM, about 2B,  is small, fast, memory-efficient, and fully open-source. 
+
+Follow [HuggingFace link](https://huggingface.co/blog/smolvlm#memory) to setup this project.",2024-11-30
+"VerifAI, setup local search engine locaaly","[Medium article](https://towardsdatascience.com/how-to-easily-deploy-a-local-generative-search-engine-using-verifai-cdf9dedf53c0) helps to set up a local search engine locally, via Mistral, LLaMa, GPT40.",2024-11-30
