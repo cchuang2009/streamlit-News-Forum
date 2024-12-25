@@ -425,3 +425,14 @@ SmolVLM - small  Vision Language Model,"SmolVLM, about 2B,  is small, fast, memo
 
 Follow [HuggingFace link](https://huggingface.co/blog/smolvlm#memory) to setup this project.",2024-11-30
 "VerifAI, setup local search engine locaaly","[Medium article](https://towardsdatascience.com/how-to-easily-deploy-a-local-generative-search-engine-using-verifai-cdf9dedf53c0) helps to set up a local search engine locally, via Mistral, LLaMa, GPT40.",2024-11-30
+Live Gemini ,"Just visit [AIstudio](https://aistudio.google.com/)] and try google gemini, no token limited",2024-12-01
+"Moxin LLM 7B, A Fully Open-Source Language Model","Researchers from Northeastern University etc, release Moxin LLM 7B to address these challenges, guided by the principles of transparency and inclusivity.
+
+Moxin LLM 7B builds on the architecture of Mistral, enhancing it with an expanded 36-block design.
+
+References
+---
+1.  [article](https://www.marktechpost.com/2024/12/19/meet-moxin-llm-7b-a-fully-open-source-language-model-developed-in-accordance-with-the-model-openness-framework-mof/)
+2. [github](https://github.com/moxin-org/Moxin-LLM)
+3.[Base Model](https://huggingface.co/moxin-org/moxin-llm-7b)
+4. [chat Model](https://huggingface.co/moxin-org/moxin-chat-7b)",2024-12-25
