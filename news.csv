@@ -436,3 +436,13 @@ References
 2. [github](https://github.com/moxin-org/Moxin-LLM)
 3.[Base Model](https://huggingface.co/moxin-org/moxin-llm-7b)
 4. [chat Model](https://huggingface.co/moxin-org/moxin-chat-7b)",2024-12-25
+WebCrawlAI: An AI-Powered Web Scraper,"It can scrape any type of data from a given website and return only the information you need:
+
+[WebCrawlAI](https://webcrawlai.onrender.com/)
+
+Gemini-enchanced Flask artifact
+
+References
+---
+1. [article](https://dev.to/arjuncodess/webcrawlai-an-ai-powered-web-scraper-built-using-bright-data-23md)<br>
+2. [GitHub src](https://github.com/ArjunCodess/WebCrawlAI)<br>",2024-12-30
